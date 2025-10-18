@@ -7,7 +7,8 @@ email-validator==2.3.0
 eventlet==0.40.3
 Flask==3.1.2
 Flask-Login==0.6.3
-flask-mongoengine==1.0.0
+flask-mongoengine @ git+https://github.com/idoshr/flask-mongoengine.git@e244408acf440c4208f7ddcd6e5d819cb472e4da
+Flask-PyMongo==3.0.1
 Flask-SocketIO==5.5.1
 Flask-WTF==1.2.2
 greenlet==3.2.4
@@ -17,6 +18,8 @@ itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.2
 mongoengine==0.29.1
+phonenumbers==9.0.15
+pillow==11.3.0
 pymongo==4.15.1
 python-engineio==4.12.2
 python-socketio==5.13.0
